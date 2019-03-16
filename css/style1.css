@@ -1,0 +1,754 @@
+*{
+
+	padding: 0;
+	margin: 0;
+
+	color: white;
+
+/*	text-shadow: 0px 0px 2px rgba(164,0,0,0.61);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);*/
+	overflow-x: hidden;
+}
+
+header
+{
+	width: 100vw;
+	height: 80px;
+	border-bottom: 0px solid silver;
+	background-color: #C896A5;
+overflow-x: visible;
+padding-top: 10px;
+}
+
+
+a
+{
+
+	text-decoration: none;
+}
+.headwrapp
+{
+
+	width: 1000px;
+
+	height: 100%;
+
+	border: 0px solid silver;
+
+	margin: 0 auto;
+	overflow-x: visible;
+	
+
+}
+
+.sdd:hover
+{
+	
+	color: white;
+
+	opacity: 1;
+
+}
+
+.headmenu
+{
+
+
+	width: 600px;
+
+	height: 100%;
+
+	border-right: 0px solid silver;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	/*justify-content: space-around;*/
+	float: left;
+	overflow-x: visible;
+}
+
+.menuitem
+{
+
+	height: 100%;
+
+	min-width: 100px;
+
+	border: 0px solid silver;
+
+
+	font-family: 'Arimo', sans-serif;
+
+	box-sizing: border-box;
+
+	line-height: 70px;
+
+	text-align: center;
+
+	font-weight: 500;
+
+	/*opacity: 0.7;*/
+
+	color:white;
+
+}
+
+.logo
+{
+
+	margin-top: 5px;
+	overflow-x: visible;
+}
+
+.logo:hover
+{
+	
+	
+}
+
+
+.menuitem img {
+
+	width: 50px;
+
+	height: 50px;
+	/*background-color: white;*/
+}
+
+.menuitem .sdd
+{
+
+		color:rgba(255,255,255,.6);	
+}
+.menuitem .sdd:hover
+{
+
+	color: white;
+	opacity: 0.9 !important;
+}
+
+.login
+{
+	display: inline-block;
+	float: right;
+
+	border: 0px solid silver;
+
+	padding: 10px 30px;
+
+	background-color: #3EA9F5;
+
+	color: white;
+
+	border-radius: 10px;
+
+		font-family: 'Alegreya Sans SC', sans-serif;
+	margin-top: 13px;
+	margin-right: 100px;
+
+	text-shadow: 0px 0px 2px rgba(164,0,0,0.61);
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.15);
+
+	font-size: 16px;
+
+	opacity: 0.7;
+	cursor:pointer;
+
+}
+
+.login:hover
+{
+
+	opacity: 1;
+}
+
+.main
+{
+
+	width: 100vw;
+
+	height: calc(100vh - 70px);
+
+	background-color: #C896A5;
+
+}
+
+
+.maincontent
+{
+
+	width: 1300px;
+
+	height: 100%;
+
+	margin: 0 auto;	
+
+	border: 0px solid silver;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: space-around;
+		overflow:hidden;
+}
+
+.mt
+{
+
+	margin-top: 250px !important;
+}
+
+.main_item
+{
+
+	width: 400px;
+
+	height: 400px;
+	border: 0px solid silver;
+
+	margin-top: 150px;
+overflow-x: visible;
+
+border-radius: 20px;
+	overflow:hidden;
+}
+
+.main_item img
+{
+
+	width: 100%;
+
+	height: 100%;
+border-radius: 20px;
+	overflow:visible;
+
+		box-shadow: 0px 0px 125px 0px rgba(0,0,0,0.85);
+}
+.size
+{
+
+	width: 550px;
+	height: 600px;
+
+	overflow:visible;
+}
+.mainh
+{
+
+	border: 0px solid silver;
+
+	font-size: 70px;
+
+	color: white;
+	font-family: 'Alegreya Sans SC', sans-serif;
+
+	font-weight: bold;
+	
+	text-shadow: 0px 0px 2px rgba(164,0,0,0.91);
+	margin-top: 50px;	
+}
+
+.mainb
+{
+
+
+	border: 1px solid silver;
+
+		font-family: 'Alegreya Sans SC', sans-serif;
+
+		font-size: 20px;
+
+		color: black;
+
+		width: 150px;
+
+		background-color: white;
+
+		letter-spacing: -1px;
+
+		text-align: center;
+
+		margin-top: 40px;
+
+		padding: 20px 10px;
+
+		border-radius: 10px;
+
+		color: #363945;	
+
+	box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.25);
+
+	cursor: pointer;
+
+	opacity: 0.7;
+
+}
+
+
+.news
+{
+
+	width: 1000px;
+
+	height: 1000px;
+
+	border: 0px solid silver;
+
+	margin: 0 auto;
+
+	margin-top: 100px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	justify-content: space-between;
+
+
+}
+
+.news div
+{
+
+	color: #363945;
+			/*font-family: 'Alegreya Sans SC', sans-serif;*/
+}
+
+
+.newsitem
+{
+
+	width: 300px;
+
+	height: 450px;
+	border:0px solid silver;
+
+	padding-top: 20px;
+
+	margin-top: 30px;
+}
+
+.newsimg
+{
+
+	width: 200px;
+	height: 200px;
+
+	margin: 0 auto;
+
+	border: 0px solid silver;
+	overflow-x: visible;
+}
+
+.newsimg img
+{
+
+	width: 100%;
+	height: auto;
+
+	border-radius: 20px;
+
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	overflow-x: visible;
+}
+
+.newshead
+{
+
+font-family: 'Alegreya Sans SC', sans-serif;
+	border: 0px solid silver;
+
+	margin-top: 20px;
+
+	font-size: 20px;
+
+	font-weight: bold;
+
+	padding-left: 10px;
+
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.newscontent
+{
+
+
+	font-family: 'Arimo', sans-serif;
+
+	font-size: 14px;
+
+	box-sizing: border-box;
+
+	padding: 5px;
+
+	width: 90%;
+
+	height: 130px;
+	overflow: hidden;
+
+	border: 0px solid silver;
+
+	line-height: 20px;
+
+	margin: 0 auto;
+}
+
+.newsfull
+{
+
+
+	border: 0px solid silver;
+	padding: 5px;
+
+	text-align: center;
+
+	font-family: 'Alegreya Sans SC', sans-serif;
+
+	color: red !important;
+
+	text-decoration: underline;
+}
+.newsfull:hover
+{
+
+	opacity: 0.7;
+
+}
+.partners
+{
+
+	margin: 0 auto;
+
+	border: 0px solid silver;
+	width: 1000px;
+
+	height: 200px;
+
+	margin-top: 100px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: space-around;
+
+	padding-top: 30px;
+
+	box-sizing: border-box;
+
+
+}
+
+.partnersitem
+{
+
+
+	height: 120px;
+
+	min-width: 120px;
+
+	border: 0px solid silver;
+	padding: 20px;
+	overflow-x: visible;
+}
+
+.partnersitem img
+{
+
+	height: 100%;
+
+	width: auto;
+
+	overflow-x: visible;
+}
+
+footer
+{
+
+	margin-top: 100px;
+	width: 100vw;
+
+	height: 200px;
+
+	background-color: #2A2D35;
+
+		font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+
+.footer_wrapp
+{
+
+
+	width: 1000px;
+	height: 100%;
+
+	border: 0px solid silver;
+
+	margin: 0 auto;
+}
+
+.footer_wrapp ul
+{
+
+	border: 0px solid silver;
+
+
+	text-align: center;
+
+	padding: 20px;
+
+}
+
+
+.footer_wrapp ul li
+
+{
+
+	display: inline-block;
+
+	margin-left: 20px;
+
+	padding: 20px;
+
+	border:1px solid silver;
+
+	border-radius: 20px;
+
+}
+
+
+.link_text
+{
+
+
+	border: 0px solid silver;
+
+	padding: 10px;
+
+	text-align: center;
+
+	margin-top: 20px;
+}
+
+.iconsoc
+{
+
+	border: 0px solid silver;
+
+	height: 30px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content:center;
+	overflow-x: visible;
+}
+
+.iconitem
+{
+
+	height: 100%;
+
+	width: 30px;
+
+	border: 0px solid silver;
+
+	padding: 10px;
+	overflow-x: visible;
+}
+
+.iconitem img
+{
+
+	width: 100%;
+
+	height: 100%;
+	overflow-x: visible;
+}
+
+.usd1
+{
+
+	width: 300px;
+	height: 250px;
+
+	/*position: fixed !important;*/
+
+	display: none;
+
+	border: 0px solid silver;
+
+	background-color: white;
+	box-shadow: 0px 0px 5px 10px rgba(255,255,255,1);
+
+	border-radius:20px;
+
+	position: fixed;
+}
+
+.usdwrapp1
+{
+
+	color: black;
+
+	border:0px solid silver;
+
+	padding: 10px;	
+
+	font-family: 'Alegreya Sans SC', sans-serif;
+
+
+	font-size: 18px;
+
+	margin-top: 20px;
+
+	position: relative;
+
+	
+}
+
+.loginss
+{
+	font-weight: bold;
+
+	font-family: 'Alegreya Sans SC', sans-serif;
+
+	text-align: center;
+
+	color: black;
+
+	border: 0px solid silver;
+
+
+}
+
+.exit
+{
+
+	width: 25px;
+
+	height: 25px;
+
+	position: absolute;
+
+	top: 5px;
+
+	right: 5px;
+
+	overflow:visible;
+
+	cursor: pointer;
+
+}
+
+.exit img
+{
+	overflow:visible;
+	width: 100%;
+	height: 100%;
+}
+
+.mainb:hover
+{
+
+	opacity:1;
+}
+
+
+.ss:hover
+{
+
+	opacity: 0.8;
+
+	background-color: white;
+
+	color: black;
+} 
+
+.kp
+{
+
+	background-color: white;
+
+	color: black;
+
+	opacity: 0.7;
+}
+
+
+.usd2
+{
+
+	width: 300px;
+	height: 300px;
+
+	position: relative;
+
+	display: none;
+
+	border: 0px solid silver;
+
+	background-color: white;
+	/*box-shadow: 0px 0px 5px 10px rgba(255,255,255,1);*/
+
+	border-radius:20px;
+		overflow:visible;
+}
+
+.usd2 img
+{
+
+	width: 100%;
+
+	height: 100%;
+
+	border-radius:20px;	
+	overflow:visible;
+	box-shadow: 0px 0px 125px 0px rgba(0,0,0,0.85);
+}
+
+.iconitem:hover
+{
+
+
+	transform: scale(1.5);
+}
+
+.ulli a
+{
+
+	color: red !important;
+}
+
+
+.lis
+{
+
+	background-color: blue;
+}
+
+.newscontent
+{
+
+
+	text-align: justify;
+}
